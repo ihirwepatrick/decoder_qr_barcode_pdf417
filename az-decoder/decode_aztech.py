@@ -6,6 +6,7 @@ Aztec codes are 2D barcodes used in transport, ticketing, and identification
 
 #init
 
+import utils.session
 import cv2
 from pyzbar.pyzbar import decode, ZBarSymbol
 import os
